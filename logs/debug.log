@@ -1,0 +1,1 @@
+[2026-06-13T15:17:29.397Z] [DEBUG] [HTTP] GET /api/health {"ip":"::1","userAgent":"curl/8.7.1","userId":"anonymous"}

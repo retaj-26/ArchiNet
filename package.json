@@ -1,0 +1,35 @@
+{
+  "name": "archinet-backend",
+  "version": "1.0.0",
+  "description": "ArchiNet Backend API - Network Design Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "node migrations/runMigrations.js"
+  },
+  "keywords": [
+    "network",
+    "design",
+    "architecture",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.1",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "uuid": "^11.1.1",
+    "joi": "^17.13.4",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "bcrypt": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
