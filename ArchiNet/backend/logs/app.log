@@ -1,0 +1,1 @@
+[2026-06-13T15:17:29.402Z] [INFO] [HTTP] GET /api/health - 200 {"duration":"4ms","userId":"anonymous"}
